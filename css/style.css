@@ -169,7 +169,7 @@ header{
     color: #FFFFFF;
 
 }
-.wwd p{
+.wwd .wwd-second{
     padding: 15px 0 42px 0;
     font-family: 'Poppins';
     font-style: normal;
@@ -182,12 +182,15 @@ header{
 .wwd article{
     max-width: 576px;
     position: relative;
+    margin: 0 16px 16px 0;
 }
 .wwd article:nth-child(3){
     flex-wrap: wrap;
 }
 .wwd-first{
-    max-width: 1200px;
+    max-width: 1184px;
+    flex-wrap: wrap;
+    margin: auto;
 }
 .wwd .describe{
     position: absolute;
@@ -199,17 +202,17 @@ header{
     align-content: end;
     flex-wrap: wrap;
 }
-.wwd .describe h4{
+.wwd .describe p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+    margin-bottom: 10px;
     width: 100%;
-
 }
-.wwd .describe span{
+.wwd .describe h4{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -219,7 +222,7 @@ header{
     text-transform: uppercase;
     color: #FFFFFF;
     display: block;
-    padding-bottom: 30px;
+    margin-bottom: 17px;
 }
 .wwd .describe a{
     display: flex;
