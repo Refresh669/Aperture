@@ -159,7 +159,7 @@ header{
 /*section wwd*/
 
 .wwd{
-    padding: 120px 120px 100px 120px;
+    padding: 120px 0 100px 0;
     background: #000000;
 }
 .wwd h3
