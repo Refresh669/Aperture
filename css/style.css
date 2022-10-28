@@ -30,7 +30,7 @@ header{
     margin-left: 32px;
 }
 .headdiv nav ul li a{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -48,7 +48,7 @@ header{
     padding: 10px 20px;
     background: #FFFFFF;
     border-radius: 14px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -70,7 +70,7 @@ header{
     position: relative;
 }
 .first_Studios a{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -79,9 +79,10 @@ header{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
+    text-decoration: none;
 }
 .first_Studios h2{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
@@ -90,7 +91,7 @@ header{
     color: #FFFFFF;
 }
 .first_Studios p{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -114,17 +115,20 @@ header{
     position: absolute;
     right: 40px;
     bottom: 46px;
-    font-family: 'Poppins';
+}
+.Aperture-Studios ul li{
+    padding-left: 16px;
+}
+.Aperture-Studios ul li a{
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     color: #FFFFFF;
+    text-decoration: none;
 }
-.Aperture-Studios ul li{
-    padding-left: 16px;
-}
-.Aperture-Studios ul li p:nth-child(1):before{
+.Aperture-Studios ul li:nth-child(1):before{
     content: url("../img/Combined-Shape (1).svg");
     display: inline-block;
     padding-right: 6px;
@@ -132,19 +136,19 @@ header{
     top: 5px
 
 }
-.Aperture-Studios ul li p:nth-child(2):before{
+.Aperture-Studios ul li:nth-child(2):before{
     content: url("../img/Combined-Shape (2).svg");
     display: inline-block;
     padding-right: 6px;
 
 }
-.Aperture-Studios ul li p:nth-child(3):before{
+.Aperture-Studios ul li:nth-child(3):before{
     content: url("../img/Combined-Shape (3).svg");
     display: inline-block;
     padding-right: 6px;
 
 }
-.Aperture-Studios ul li p:nth-child(4):before{
+.Aperture-Studios ul li:nth-child(4):before{
     content: url("../img/Fill-1.svg");
     display: inline-block;
     padding-right: 6px;
@@ -160,7 +164,7 @@ header{
 }
 .wwd h3
 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -171,7 +175,7 @@ header{
 }
 .wwd .wwd-second{
     padding: 15px 0 42px 0;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -203,7 +207,7 @@ header{
     flex-wrap: wrap;
 }
 .wwd .describe p{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -213,7 +217,7 @@ header{
     width: 100%;
 }
 .wwd .describe h4{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -227,7 +231,7 @@ header{
 .wwd .describe a{
     display: flex;
     align-items: center;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -254,3 +258,254 @@ header{
 }
 
 /*section wwd*/
+
+/*section Sunset*/
+
+.Sunset{
+    min-height: 600px;
+    background-image: url("../img/IMAGE (9).jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 62px;
+    position: relative;
+}
+.Sunset-wh{
+    max-width: 298px;
+}
+.Sunset .Sunset-wh h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.Sunset .Sunset-wh p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.Sunset ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 45px;
+    right: 24px;
+}
+.Sunset ul li{
+margin-right: 16px;
+}
+.Sunset ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.Sunset ul li:nth-child(1):before{
+    content: url("../img/Combined-Shape (1).svg");
+    display: inline-block;
+    margin-right: 6px;
+    position: relative;
+    top: 7px;
+}
+.Sunset ul li:nth-child(2):before {
+    content: url("../img/Combined-Shape (2).svg");
+    display: inline-block;
+    margin-right: 6px;
+    position: relative;
+    top: 7px;
+}
+.Sunset ul li:nth-child(3):before{
+    content: url("../img/Combined-Shape (3).svg");
+    display: inline-block;
+    margin-right: 7px;
+    position: relative;
+    top: 7px;
+}
+.Sunset ul li:nth-child(4):before {
+    content: url("../img/Fill-1.svg");
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: 7px;
+}
+/*section Sunset*/
+
+/*section Monstera*/
+
+
+.Monstera{
+    min-height: 600px;
+    background-image: url("../img/IMAGE (10).jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 87px;
+    position: relative;
+}
+.Monstera-wh{
+    max-width: 273px;
+}
+.Monstera .Monstera-wh h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.Monstera .Monstera-wh p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.Monstera ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 45px;
+    right: 24px;
+}
+.Monstera ul li{
+    margin-right: 16px;
+}
+.Monstera ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-decoration: none
+}
+.Monstera ul li:nth-child(1):before{
+    content: url("../img/Combined-Shape (1).svg");
+    display: inline-block;
+    margin-right: 6px;
+    position: relative;
+    top: 7px;
+}
+.Monstera ul li:nth-child(2):before {
+    content: url("../img/Combined-Shape (2).svg");
+    display: inline-block;
+    margin-right: 6px;
+    position: relative;
+    top: 7px;
+}
+.Monstera ul li:nth-child(3):before{
+    content: url("../img/Combined-Shape (3).svg");
+    display: inline-block;
+    margin-right: 7px;
+    position: relative;
+    top: 7px;
+}
+.Monstera ul li:nth-child(4):before {
+    content: url("../img/Fill-1.svg");
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: 7px;
+}
+/*section Monstera*/
+
+/*section Star*/
+
+.Star{
+    min-height: 600px;
+    background-image: url("../img/IMAGE (11).jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 106px;
+    position: relative;
+}
+.Star-wh{
+    max-width: 254px;
+}
+.Star .Star-wh h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+.Star .Star-wh p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.Star ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 45px;
+    right: 24px;
+}
+.Star ul li{
+    margin-right: 16px;
+}
+.Star ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.Star ul li:nth-child(1):before{
+    content: url("../img/Combined-Shape (1).svg");
+    display: inline-block;
+    margin-right: 6px;
+    position: relative;
+    top: 7px;
+}
+.Star ul li:nth-child(2):before {
+    content: url("../img/Combined-Shape (2).svg");
+    display: inline-block;
+    margin-right: 6px;
+    position: relative;
+    top: 7px;
+}
+.Star ul li:nth-child(3):before{
+    content: url("../img/Combined-Shape (3).svg");
+    display: inline-block;
+    margin-right: 7px;
+    position: relative;
+    top: 7px;
+}
+.Star ul li:nth-child(4):before {
+    content: url("../img/Fill-1.svg");
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: 7px;
+}
+
+/*section Star*/
