@@ -191,11 +191,6 @@ header{
 .wwd article:nth-child(3){
     flex-wrap: wrap;
 }
-.wwd-first{
-    max-width: 1184px;
-    flex-wrap: wrap;
-    margin: auto;
-}
 .wwd .describe{
     position: absolute;
     padding: 30px;
@@ -265,6 +260,10 @@ header{
     max-width: 1184px;
     margin: auto;
     justify-content: space-between;
+    padding: 0;
+}
+.ui-accordion .ui-accordion-header{
+    padding: 0;
 }
 /*section wwd*/
 
