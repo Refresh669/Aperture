@@ -256,7 +256,16 @@ header{
     border-radius: 50%;
     margin: 5px 6px 5px 4px;
 }
-
+.ui-widget-content{
+    background-color: black;
+    border: none;
+}
+.ui-accordion .ui-accordion-content{
+    display: flex;
+    max-width: 1184px;
+    margin: auto;
+    justify-content: space-between;
+}
 /*section wwd*/
 
 /*section Sunset*/

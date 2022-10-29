@@ -6,8 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 <header>
@@ -55,63 +58,71 @@
 <section class="wwd">
     <h3>What we do.</h3>
     <p class="wwd-second">The areas that we're specialized in.</p>
+    <div id="accordion" class="wwd-first">
+        <h3>Section 1</h3>
+        <div>
+            <article>
+                <div class="describe">
+
+                    <h4>
+                        Product Photography
+                    </h4>
+                    <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla <br> efficitur auctor hendrerit.
+                        Etiam ut orci varius, faucibus libero ac, cursus
+                        <br> quam.
+                    </p>
+                    <a href="#">Read more</a>
+                </div>
+                <img src="img/IMAGE%20(5).jpg" alt="">
+            </article>
+            <article>
+                <div class="describe">
+
+                    <h4>
+                        Architecture Photography
+                    </h4>
+                    <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci <br> nec egestas pharetra, ligula est
+                        semper enim, nec auctor sapien leo nec <br> purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo
+                        imperdiet nec.</p>
+
+                    <a href="#">Read more</a>
+                </div>
+                <img src="img/IMAGE%20(6).jpg" alt="">
+            </article>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+            <article>
+                <div class="describe">
+
+                    <h4>
+                        Drone Photography
+                    </h4>
+                    <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique <br> sed lorem a vestibulum.
+                        Cras commodo consequat orci, in convallis risus <br> egestas non. Nulla efficitur auctor hendrerit. Etiam ut
+                        orci varius, faucibus <br> libero ac, cursus quam.</p>
+
+                    <a href="#">Read more</a>
+                </div>
+                <img src="img/IMAGE%20(7).jpg" alt="">
+            </article>
+            <article>
+                <div class="describe">
+
+                    <h4>
+                        Wildlife Photography
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam <br> scelerisque aliquam odio et  faucibus.
+                        Nulla rhoncus feugiat eros <br> quis consectetur. Morbi neque ex, condimentum dapibus congue et, <br> vulputate ut
+                        ligula. Vestibulum sit amet urna turpis.</p>
+
+                    <a href="#">Read more</a>
+                </div>
+                <img src="img/IMAGE%20(8).jpg" alt="">
+            </article>
+        </div>
+    </div>
 <div class="d-flex wwd-first">
-    <article>
-        <div class="describe">
-
-                        <h4>
-                            Product Photography
-                        </h4>
-            <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla <br> efficitur auctor hendrerit.
-                Etiam ut orci varius, faucibus libero ac, cursus
-                <br> quam.
-            </p>
-            <a href="#">Read more</a>
-        </div>
-        <img src="img/IMAGE%20(5).jpg" alt="">
-    </article>
-    <article>
-        <div class="describe">
-
-                        <h4>
-                            Architecture Photography
-                        </h4>
-            <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci <br> nec egestas pharetra, ligula est
-                semper enim, nec auctor sapien leo nec <br> purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo
-                imperdiet nec.</p>
-
-            <a href="#">Read more</a>
-        </div>
-        <img src="img/IMAGE%20(6).jpg" alt="">
-    </article>
-    <article>
-        <div class="describe">
-
-                        <h4>
-                            Drone Photography
-                        </h4>
-            <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique <br> sed lorem a vestibulum.
-                Cras commodo consequat orci, in convallis risus <br> egestas non. Nulla efficitur auctor hendrerit. Etiam ut
-                orci varius, faucibus <br> libero ac, cursus quam.</p>
-
-            <a href="#">Read more</a>
-        </div>
-        <img src="img/IMAGE%20(7).jpg" alt="">
-    </article>
-    <article>
-        <div class="describe">
-
-                        <h4>
-                            Wildlife Photography
-                        </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam <br> scelerisque aliquam odio et  faucibus.
-                Nulla rhoncus feugiat eros <br> quis consectetur. Morbi neque ex, condimentum dapibus congue et, <br> vulputate ut
-                ligula. Vestibulum sit amet urna turpis.</p>
-
-            <a href="#">Read more</a>
-        </div>
-        <img src="img/IMAGE%20(8).jpg" alt="">
-    </article>
 </div>
 </section>
 <section class="Sunset">
@@ -151,5 +162,8 @@
         <li><a href="#">Nepal</a></li>
     </ul>
 </section>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
