@@ -512,7 +512,7 @@ margin-right: 16px;
 }
 .owl-dots{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .owl-carousel .owl-item img{
     margin: auto;
