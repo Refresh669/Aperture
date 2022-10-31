@@ -191,6 +191,7 @@ header{
 .wwd article:nth-child(3){
     flex-wrap: wrap;
 }
+
 .wwd .describe{
     position: absolute;
     padding: 30px;
@@ -264,7 +265,42 @@ header{
 }
 .ui-accordion .ui-accordion-header{
     padding: 0;
+    border: none;
+    background-color: transparent;
+    text-align: center;
 }
+.ui-icon{
+    background-image: none;
+    background-position: 0;
+    text-indent: 0;
+    margin: 0;
+}
+.ui-accordion .ui-accordion-header.ui-state-hover .ui-icon{
+    background-image: none;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon, .ui-icon, .ui-widget-content .ui-icon{
+    background-image: none;
+    background-position: 0;
+    text-indent: 0;
+    margin: 0;
+    position: relative;
+    top: -5px;
+    left: -10px;
+}
+.ui-icon:after{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f078";
+}
+@keyframes slide {
+    0%{
+        top: -15px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+
 /*section wwd*/
 
 /*section Sunset*/
@@ -433,7 +469,56 @@ margin-right: 16px;
     top: 7px;
 }
 /*section Monstera*/
+/*section Slider*/
 
+.Slider{
+    background-color: black;
+    padding: 120px 0 100px 0;
+}
+.owl-carousel{
+    margin: auto;
+    margin-top: 82px;
+    max-width: 1168px;
+}
+.Slider h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Slider p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+.owl-carousel .owl-dots button.owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+     background-color: white;
+}
+.owl-carousel .owl-dots button.owl-dot.active{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+}
+.owl-carousel .owl-item img{
+    margin: auto;
+    max-width: 200px;
+}
+/*section Slider*/
 /*section Star*/
 
 .Star{
