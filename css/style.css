@@ -11,7 +11,6 @@
 /*header*/
 header{
     background: #181818;
-    padding: 24px 0;
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -22,6 +21,7 @@ header{
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding: 24px 20px 24px 32px;
 }
 .headdiv nav ul {
     list-style: none; display: flex;
@@ -663,7 +663,6 @@ body{
     float: right;
     padding-left: 15px;
     padding-top: 15px;
-    margin-top: 26px;
     transition : all 0.3s ease-out;
     display: none;
 }
@@ -791,8 +790,6 @@ body{
     font-size: 15px;
     font-weight: 900;
     line-height: 1.15;
-    -webkit-transform: translate(100px, 0%);
-    transform: translate(100px, 0%);
     -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
     transition: opacity .2s ease, -webkit-transform .3s ease;
     transition: opacity .2s ease, transform .3s ease;
@@ -806,16 +803,18 @@ body{
     opacity: 0;
         margin-left: 0;
         letter-spacing: 3px;
+        -webkit-transform: translate(100px, 0%);
+        transform: translate(100px, 0%);
     }
 }
 .nav__list-item a{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    color: #FFFFFF;
-    text-decoration: none;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
 }
 
 @media only screen and (max-width: 767px){
@@ -851,7 +850,7 @@ body{
 }
 @media only screen and (max-width: 767px){
     .nav__list-item a:after{
-        background-color: #8167a9;
+        background-color: #34580e;
     }
 }
 
@@ -908,8 +907,13 @@ background: none;
 @media only screen and (max-width: 767px) {
     .nav__list-item:nth-child(5) a{
         color: rgba(255,255,255,0.6);
-        font-size: 15px;
         letter-spacing: 3px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-size: 23px;
+        line-height: 30px;
+        text-align: center;
+        font-weight: 900;
     }
 }
 body.nav-active .nav__content {
